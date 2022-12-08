@@ -1,0 +1,20 @@
+{
+  "blockId": 1021,
+  "transaction": "transaction 1",
+  "action": "add",
+  "attributeSubject":{
+    "userId" : 58001,
+    "role": "sensor",
+    "group": "detection"
+  },
+  "attributeObject": {
+    "deviceId":"AX0001"
+  },
+  "attributePermission": "true",
+  "attributeEnvironment": {
+    "createTime": 1000,
+    "endTime": 10000
+  }
+}
+
+{"blockId": 1026, "transaction": "transaction 2", "action": "add", "attributeSubject":{"userId" : 58003, "role": "sensor", "group": "detection"}, "attributeObject": {"deviceId":"AX0002"}, "attributePermission": "true", "attributeEnvironment": {"createTime": 1000, "endTime": 10000}}
